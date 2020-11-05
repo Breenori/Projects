@@ -1,0 +1,7 @@
+character;bf_success;bf_failure;bm_success;bm_failure;kmp_success;kmp_failure
+' 0 ';199988;49996;4;49996;50000;49996
+' 1 ';1;0;1;0;1;0
+
+bf_total;249985
+bm_total;50001
+kmp_total;99997
