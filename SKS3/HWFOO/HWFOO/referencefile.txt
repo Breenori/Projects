@@ -1,0 +1,25 @@
+# HelloWorldFoundOnLineOne
+# = HWFOO
+# SKS3 - Sebastian Pritz und Severin Pichler
+
+# Kommentare
+from fuzzywuzzy import fuzz
+from fuzzywuzzy import process
+
+
+def preprocess(fileHandle, outputName):
+    outputFile = open(outputName)
+    
+    for line in fileHandle.readlines():
+        print(line.strip())
+
+    outputFile.close()
+
+
+referenceFile = open("referenceFile.txt")
+candidateFile = open("candidateFile.txt")
+
+preprocess(referenceFile, "hannes.txt")
+
+
+

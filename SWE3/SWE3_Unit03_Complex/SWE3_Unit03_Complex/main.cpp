@@ -118,14 +118,14 @@ void test_div_by_zero()
 void main()
 {
 	cout << "Testing complex number operations: \n";
-	test_addition();
-	test_subtraction();
-	test_multiplication();
-	test_division();
-	test_add_operator();
-	test_sub_operator();
-	test_mul_operator();
-	test_div_operator();
+	//test_addition();
+	//test_subtraction();
+	//test_multiplication();
+	//test_division();
+	//test_add_operator();
+	//test_sub_operator();
+	//test_mul_operator();
+	//test_div_operator();
 
 	test_div_by_zero();
 }
