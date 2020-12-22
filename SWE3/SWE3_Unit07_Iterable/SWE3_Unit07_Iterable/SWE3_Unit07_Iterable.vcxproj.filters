@@ -15,27 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h">
+    <ClInclude Include="Iterable.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="zoo.h">
+    <ClInclude Include="array.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="statistics.h">
+    <ClInclude Include="list.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animal.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="zoo.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="statistics.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

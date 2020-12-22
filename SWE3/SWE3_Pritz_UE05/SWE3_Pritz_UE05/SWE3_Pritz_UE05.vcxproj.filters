@@ -15,27 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h">
+    <ClInclude Include="person.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="zoo.h">
+    <ClInclude Include="flight.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="statistics.h">
+    <ClInclude Include="flight_journey.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="date.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="DateTime.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animal.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="zoo.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
-    <ClCompile Include="statistics.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

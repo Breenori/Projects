@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5d9ba503-4446-468b-96e9-2393bb64a1b3}</ProjectGuid>
-    <RootNamespace>SWE3Unit06Vererbung</RootNamespace>
+    <ProjectGuid>{961c6210-c495-41f9-bd98-2dec9f911b80}</ProjectGuid>
+    <RootNamespace>SWE3Unit07Iterable</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -102,6 +103,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,15 +141,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
-    <ClInclude Include="statistics.h" />
-    <ClInclude Include="zoo.h" />
+    <ClInclude Include="algorithms.h" />
+    <ClInclude Include="array.h" />
+    <ClInclude Include="Iterable.h" />
+    <ClInclude Include="list.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animal.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="statistics.cpp" />
-    <ClCompile Include="zoo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

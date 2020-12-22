@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{5d9ba503-4446-468b-96e9-2393bb64a1b3}</ProjectGuid>
-    <RootNamespace>SWE3Unit06Vererbung</RootNamespace>
+    <ProjectGuid>{a79380b5-f0d8-41a2-b9fc-6970dea360ca}</ProjectGuid>
+    <RootNamespace>SWE3Unit08Callables</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,15 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
-    <ClInclude Include="statistics.h" />
-    <ClInclude Include="zoo.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="filter_operations.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="animal.cpp" />
+    <ClCompile Include="car.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="statistics.cpp" />
-    <ClCompile Include="zoo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
