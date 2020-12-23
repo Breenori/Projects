@@ -1,0 +1,17 @@
+<style type="text/css">
+body {
+	background-color: lime;
+}
+
+* {
+	color: yellow;
+}
+</style>
+<h2> TODOs </h2>
+
+{% for x in todo_list %}
+<p> Fullname: {{ x.name }} - {{ x.created|date:"D d M Y" }}</p>
+<p> Description of the Todo: {{ x.description }}</p>
+<p> Priority: {{ x.priority }}</p>
+</hr>
+{% endfor %}
