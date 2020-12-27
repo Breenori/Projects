@@ -140,10 +140,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="formatter.h" />
+    <ClInclude Include="helper_funcs.h" />
+    <ClInclude Include="storable.h" />
     <ClInclude Include="part.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="formatter.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="part.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

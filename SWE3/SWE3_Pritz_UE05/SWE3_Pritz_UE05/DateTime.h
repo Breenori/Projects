@@ -4,6 +4,7 @@
 #include<string>
 #include<regex>
 #include<time.h>
+using std::ostream;
 
 using std::string;
 using std::to_string;
@@ -32,22 +33,27 @@ private:
 		std::regex date_regex("^([0-9][0-9]?)[ .]([0-9][0-9]?)[ .]([0-9][0-9]|[0-9][0-9][0-9][0-9]) ([0-9][0-9]?)[:]([0-9][0-9]?)[:]([0-9][0-9]?)");
 		std::smatch matches;
 
-		if (std::regex_search(datestr, matches, date_regex))
+		if (std::regex_search(datestr, matches, date_regex) && matches.size()==7)
 		{
-			ti.tm_mday = std::stoi(matches[0].str());
-			ti.tm_mon = std::stoi(matches[1].str());
-			string yearStr = matches[2].str();
+			ti.tm_mday = std::stoi(matches[1].str());
+			ti.tm_mon = std::stoi(matches[2].str())-1;
+			string yearStr = matches[3].str();
 			if (yearStr.length() == 2)
 			{
 				yearStr = "20" + yearStr;
 			}
-			ti.tm_year = std::stoi(yearStr);
-			ti.tm_hour = std::stoi(matches[3].str());
-			ti.tm_min = std::stoi(matches[4].str());
-			ti.tm_sec = std::stoi(matches[5].str());
+			ti.tm_year = std::stoi(yearStr)-1900;
+			ti.tm_hour = std::stoi(matches[4].str());
+			ti.tm_min = std::stoi(matches[5].str());
+			ti.tm_sec = std::stoi(matches[6].str());
+		}
+		else
+		{
+			std::cout << "Error parsing date.\n";
+			*this = DateTime();
 		}
 	}
-	string formatdd(short const num)
+	string formatdd(short const num) const
 	{
 		if (num < 10)
 		{
@@ -58,6 +64,8 @@ private:
 
 
 public:
+	friend ostream& operator<<(ostream& lhs, DateTime const& rhs);
+	
 	DateTime()
 	{
 		std::time_t t = std::time(0);
@@ -82,7 +90,12 @@ public:
 		isDiff = false;
 	}
 
-	string toStr()
+	DateTime(string const& s)
+	{
+		strtodate(s);
+	}
+
+	string toStr() const
 	{
 		return isDiff ? std::to_string(ti.tm_mday) + " days, " + std::to_string(ti.tm_hour) + " hours, " + std::to_string(ti.tm_min) + " minutes, " + std::to_string(ti.tm_sec) + " seconds" : (formatdd(ti.tm_mday) + "." + formatdd(ti.tm_mon+1) + "." + to_string(ti.tm_year+1900) + " " + formatdd(ti.tm_hour) + ":" + formatdd(ti.tm_min) + ":" + formatdd(ti.tm_sec));
 	}
@@ -103,4 +116,10 @@ public:
 
 	
 };
+
+ostream& operator<<(ostream& lhs, DateTime const& rhs)
+{
+	lhs << rhs.toStr();
+	return lhs;
+}
 #endif

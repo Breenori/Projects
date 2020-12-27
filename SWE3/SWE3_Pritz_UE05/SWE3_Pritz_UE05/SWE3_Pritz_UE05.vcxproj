@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="date.h" />
     <ClInclude Include="DateTime.h" />
     <ClInclude Include="flight.h" />
     <ClInclude Include="flight_journey.h" />

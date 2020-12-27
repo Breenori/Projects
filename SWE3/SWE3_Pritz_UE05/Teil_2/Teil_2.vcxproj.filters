@@ -21,12 +21,21 @@
     <ClInclude Include="formatter.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="storable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_funcs.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="part.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="formatter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>

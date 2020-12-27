@@ -24,9 +24,6 @@
     <ClInclude Include="flight_journey.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="date.h">
-      <Filter>Headerdateien</Filter>
-    </ClInclude>
     <ClInclude Include="DateTime.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
