@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Skriptsprachen</h1>
+    {% for type in type_list %}
+    <h2>{{ type.name }}</h2>
+    <table>
+        <tr>
+            <th>Skriptsprache</th>
+            <th>Beschreibung</th>
+        </tr>
+        {% for x in lang_list %}
+            {% if x.type_id == type.id %}
+            <tr>
+                <th>{{ x.name }}</th>
+                <th>{{ x.desc }}</th>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+    {% endfor %}
+</body>
+</html>

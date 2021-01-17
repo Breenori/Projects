@@ -1,0 +1,5 @@
+GER	Felix Neureuther	31	10	2	4
+GER	Stefan Luitz	29	0	0	1
+GER	Josef Ferstl	28	1	1	7
+GER	Andreas Sander	27	0	0	6
+GER	Fritz Dopfer	20	2	2	0

@@ -1,0 +1,7 @@
+AUT	Marcel Hirscher	34	10	2	5
+AUT	Michael Matt	32	2	6	9
+AUT	Philipp Schoerghofer	26	0	1	0
+AUT	Manuel Feller	21	1	1	1
+AUT	Marc Digruber	23	0	2	4
+AUT	Matthias Mayer	30	2	1	5
+AUT	Romed Baumann	29	9	7	10
