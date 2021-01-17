@@ -1,0 +1,106 @@
+CLUSTAL O(1.2.3) multiple sequence alignment
+
+
+BA000007.3      AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTCTC	60
+BA000007.2      AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTCTC	60
+                ************************************************************
+
+BA000007.3      TGACAGCAGCTTCTGAACTGGTTACCTGCCGTGAGTAAATTAAAATTTTATTGACTTAGG	120
+BA000007.2      TGACAGCAGCTTCTGAACTGGTTACCTGCCGTGAGTAAATTAAAATTTTATTGACTTAGG	120
+                ************************************************************
+
+BA000007.3      TCACTAAATACTTTAACCAATATAGGCATAGCGCACAGACAGATAAAAATTACAGAGTAC	180
+BA000007.2      TCACTAAATACTTTAACCAATATAGGCATAGCGCACAGACAGATAAAAATTACAGAGTAC	180
+                ************************************************************
+
+BA000007.3      ACAACATCCATGAAACGCATTAGCACCACCATTACCACCACCATCACCACCACCATCACC	240
+BA000007.2      ACAACATCCATGAAACGCATTAGCACCACCATTACCACCACCATCACCACCACCATCACC	240
+                ************************************************************
+
+BA000007.3      ATTACCATTACCACAGGTAACGGTGCGGGCTGACGCGTACAGGAAACACAGAAAAAAGCC	300
+BA000007.2      ATTACCATTACCACAGGTAACGGTGCGGGCTGACGCGTACAGGAAACACAGAAAAAAGCC	300
+                ************************************************************
+
+BA000007.3      CGCACCTGACAGTGCGGGCTTTTTTTTCGACCAAAGGTAACGAGGTAACAACCATGCGAG	360
+BA000007.2      CGCACCTGACAGTGCGGGCTTTTTTTTCGACCAAAGGTAACGAGGTAACAACCATGCGAG	360
+                ************************************************************
+
+BA000007.3      TGTTGAAGTTCGGCGGTACATCAGTGGCAAATGCAGAACGTTTTCTGCGGGTTGCCGATA	420
+BA000007.2      TGTTGAAGTTCGGCGGTACATCAGTGGCAAATGCAGAACGTTTTCTGCGGGTTGCCGATA	420
+                ************************************************************
+
+BA000007.3      TTCTGGAAAGCAATGCCAGGCAGGGGCAGGTGGCCACCGTCCTCTCTGCCCCCGCCAAAA	480
+BA000007.2      TTCTGGAAAGCAATGCCAGGCAGGGGCAGGTGGCCACCGTCCTCTCTGCCCCCGCCAAAA	480
+                ************************************************************
+
+BA000007.3      TCACCAACCA--------------------------------------------------	490
+BA000007.2      TCACCAACCACCTGGTGGCGATGATTGAAAAAACCATTAGCGGCCAGGATGCTTTACCCA	540
+                **********                                                  
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      ATATCAGCGATGCCGAACGTATTTTTGCCGAACTTCTGACGGGACTCGCCGCCGCCCAGC	600
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      CGGGATTCCCGCTGGCGCAATTGAAAACTTTCGTCGACCAGGAATTTGCCCAAATAAAAC	660
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      ATGTCCTGCATGGCATTAGTTTGTTAGGGCAGTGCCCGGATAGCATTAACGCTGCGCTGA	720
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      TTTGCCGTGGCGAGAAAATGTCGATCGCCATTATGGCCGGCGTATTAGAAGCGCGCGGTC	780
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      ACAACGTTACCGTTATCGATCCGGTCGAAAAACTGCTGGCAGTGGGGCATTACCTCGAAT	840
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      CTACTGTCGATATTGCAGAGTCCACCCGCCGTATTGCGGCAAGTCGTATTCCGGCTGATC	900
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      ACATGGTGCTGATGGCAGGTTTCACCGCCGGTAATGAAAAAGGCGAACTGGTGGTACTTG	960
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      GACGCAACGGTTCCGACTACTCCGCGGCGGTGCTGGCTGCCTGTTTACGCGCCGATTGTT	1020
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      GCGAGATTTGGACGGACGTTGACGGGGTATATACCTGCGACCCGCGTCAGGTGCCCGATG	1080
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      CGAGGTTGTTGAAATCGATGTCCTACCAGGAAGCGATGGAGCTTTCCTACTTCGGCGCTA	1140
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      AAGTTCTTCACCCCCGCACCATTACCCCCATCGCCCAGTTCCAGATCCCTTGCCTGATTA	1200
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      AAAATACCGGAAATCCTCAAGCTCCAGGTACGCTCATTGGTGCCAGTCGTGATGAAGACG	1260
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      CCTGGTGGCGATGATTGAAAAAACCATTAGCGGCCAGGATGCTTTACCCAATATCAGCGA	1320
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      TGCCGAACGTATTTTTGCCGAACTTCTGACGGGACTCGCCGCCGCCCAGCCGGGATTCCC	1380
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      GCTGGCGCAATTGAAAACTTTCGTCGACCAGGAATTTGCCCAAATAAAACATGTCCTGCA	1440
+                                                                            
+
+BA000007.3      ------------------------------------------------------------	490
+BA000007.2      TGGCATTAGTTTGTTAGGGCAGTGCCCGGATAGCATTAACGCTGCGCTGATTTGCCGTGG	1500
+                                                                            
+
+BA000007.3      ----------------------------------------	490
+BA000007.2      CGAGAAAATGTCGATCGCCATTATGGCCGGCGTATTAGAA	1540
+                                                        
