@@ -27,6 +27,12 @@
     <ClInclude Include="syntax_tree.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="name_list.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">

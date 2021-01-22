@@ -141,6 +141,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="expr_tree_exceptions.h" />
+    <ClInclude Include="name_list.h" />
+    <ClInclude Include="parser.h" />
     <ClInclude Include="pfc_scanner.h" />
     <ClInclude Include="st_node.h" />
     <ClInclude Include="syntax_tree.h" />

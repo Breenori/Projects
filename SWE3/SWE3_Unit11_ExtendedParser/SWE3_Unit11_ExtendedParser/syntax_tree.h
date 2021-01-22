@@ -3,6 +3,7 @@
 #include "st_node.h"
 #include "expr_tree_exceptions.h"
 #include <iostream>
+#include "name_list.h"
 
 namespace xpr
 {
@@ -23,13 +24,13 @@ namespace xpr
 			}
 		}
 
-		T evaluate()
+		T evaluate(NameList<SyntaxTree<T>*>* name_list)
 		{
 			if (root == nullptr)
 			{
 				throw EvaluationException();
 			}
-			return root->evaluate();
+			return root->evaluate(name_list);
 		}
 
 		friend std::ostream& operator<<(std::ostream& lhs, const SyntaxTree<T>* other)

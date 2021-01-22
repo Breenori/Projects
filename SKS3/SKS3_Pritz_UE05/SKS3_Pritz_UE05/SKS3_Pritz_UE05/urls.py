@@ -10,5 +10,6 @@ from django.contrib.auth.views import LoginView, LogoutView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('SKSApp/', include('SKSApp.urls'))
+    # Instead of the appname, make it the default page
+    path(r'', include('SKSApp.urls'))
 ]

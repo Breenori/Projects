@@ -4,8 +4,15 @@
 #include "expr_tree_exceptions.h"
 #include "string"
 #include <cmath>
+#include "name_list.h"
+#include "syntax_tree.h"
 
 namespace xpr {
+
+	// forward declaration
+	template<typename T>
+	class SyntaxTree;
+
 	template<typename T>
 	class StNode
 	{
@@ -79,7 +86,7 @@ namespace xpr {
 			print(os);
 		}
 
-		virtual T evaluate() const = 0;
+		virtual T evaluate(NameList<SyntaxTree<T>*>* name_list) const = 0;
 		virtual void print(std::ostream& os) const = 0;
 
 	protected:
@@ -96,7 +103,7 @@ namespace xpr {
 
 		}
 
-		virtual T evaluate() const override
+		virtual T evaluate(NameList<SyntaxTree<T>*>* name_list) const override
 		{
 			return value;
 		}
@@ -119,7 +126,7 @@ namespace xpr {
 
 		StNodeOperator(Operator op) : op(op) {}
 
-		virtual T evaluate() const override
+		virtual T evaluate(NameList<SyntaxTree<T>*>* name_list) const override
 		{
 			StNode<T>* l{ this->left };
 			StNode<T>* r{ this->right };
@@ -127,19 +134,19 @@ namespace xpr {
 			switch (op)
 			{
 			case ADD:
-				return l->evaluate() + r->evaluate();
+				return l->evaluate(name_list) + r->evaluate(name_list);
 				break;
 			case SUB:
-				return l->evaluate() - r->evaluate();
+				return l->evaluate(name_list) - r->evaluate(name_list);
 				break;
 			case MUL:
-				return l->evaluate() * r->evaluate();
+				return l->evaluate(name_list) * r->evaluate(name_list);
 				break;
 			case DIV:
-				return l->evaluate() / r->evaluate();
+				return l->evaluate(name_list) / r->evaluate(name_list);
 				break;
 			case EXP:
-				return std::pow(l->evaluate(), r->evaluate());
+				return std::pow(l->evaluate(name_list), r->evaluate(name_list));
 				break;
 			default:
 				throw EvaluationException();
@@ -153,6 +160,33 @@ namespace xpr {
 
 	private:
 		Operator op;
+	};
+
+	template<typename T>
+	class StNodeIdent : public StNode<T>
+	{
+	private:
+		std::string value;
+	public:
+		StNodeIdent(const std::string& value) : value(value)
+		{
+
+		}
+
+		virtual T evaluate(NameList<SyntaxTree<T>*>* name_list) const override
+		{
+			SyntaxTree<T>* tree = name_list->lookup_variable(value);
+			if (tree != nullptr)
+			{
+				return tree->evaluate(name_list);
+			}
+			throw VariableNotFoundException("Variable: " + value + " was not defined.");
+		}
+
+		virtual void print(std::ostream& os) const override
+		{
+			os << value << " ";
+		}
 	};
 }
 
