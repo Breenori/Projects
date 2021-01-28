@@ -1,0 +1,22 @@
+dict                 13, 26
+else                 19
+false                18
+firstline            12, 17, 18
+for                  16, 39
+format               36, 40
+genedict             13, 25, 26, 27, 28, 29, 33, 39, 40
+genefile             9, 16
+genename             22, 32, 33
+if                   17, 25, 32
+import               3
+in                   16, 25, 32, 39
+keys                 25
+line                 16, 21, 22
+not                  25
+open                 9
+print                36, 40
+re                   3
+readlines            16
+species              21, 25, 26, 27, 28, 29, 33, 39, 40
+split                21, 22
+true                 12

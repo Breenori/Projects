@@ -1,0 +1,5 @@
+USA	Steven Nyman	22	1	1	1
+USA	Ryan Cochran-Siegle	27	3	4	1
+USA	Travis Ganong	23	1	1	0
+USA	Andrew Weibrecht	22	0	0	0
+USA	Ted Ligety	30	10	12	14
