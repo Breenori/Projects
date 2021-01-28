@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SWE3VO_Parser", "SWE3VO_Parser\SWE3VO_Parser.vcxproj", "{AB045F17-C7DE-4D83-A76B-6635F5F14E65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Debug|x64.ActiveCfg = Debug|x64
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Debug|x64.Build.0 = Debug|x64
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Debug|x86.Build.0 = Debug|Win32
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Release|x64.ActiveCfg = Release|x64
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Release|x64.Build.0 = Release|x64
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Release|x86.ActiveCfg = Release|Win32
+		{AB045F17-C7DE-4D83-A76B-6635F5F14E65}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8517302-4670-4168-9974-15D2B4F1D732}
+	EndGlobalSection
+EndGlobal

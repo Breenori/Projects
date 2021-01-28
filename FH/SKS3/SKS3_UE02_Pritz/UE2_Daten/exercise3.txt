@@ -1,0 +1,7 @@
+Python unterstuetzt mehrere Programmierparadigmen, z. B. die objektorientierte, die aspektorientierte und die funktionale Programmierung. Ferner bietet es eine dynamische Typisierung. Wie viele dynamische Sprachen wird Python oft als Skriptsprache genutzt.
+Die Sprache hat ein offenes, gemeinschaftsbasiertes Entwicklungsmodell, das durch die gemeinnuetzige Python Software
+Foundation, die de facto die Definition der Sprache in der Referenzumsetzung CPython pflegt, gestuetzt wird.
+Wegen ihrer klaren und uebersichtlichen Syntax gilt Python als einfach zu erlernen. Sie besitzt eine umfangreiche
+Standardbibliothek und zahlreiche Pakete im Python Package Index.
+Die berufsbegleitenden Lehrveranstaltungen des Studiengangs Software Engineering finden an Freitagen von 15.30 bis
+19.40 Uhr bzw. 20.30 Uhr statt, an Samstagen wird von 8.00 bis 14.40 Uhr gelehrt.

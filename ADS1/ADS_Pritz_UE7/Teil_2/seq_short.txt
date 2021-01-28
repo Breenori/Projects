@@ -1,2 +1,0 @@
->Custom shortened fasta entry
-M?SNSYVLVINSGSSSLK!FAVID;SQTGEA

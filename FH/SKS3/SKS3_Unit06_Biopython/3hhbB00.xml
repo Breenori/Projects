@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<document>
+	<domain domain_id="3hhbB00" pdb_id="3hhb" chain_code="B" domain_code="00" dom_length="146">
+		<cath_code class_code="1" arch_code="10" top_code="490" homol_code="10" s35_code="3" s60_code="1" s95_code="1" s100_code="2" s100_count="54">1.10.490.10.3.1.1.2.54</cath_code>
+		<level_names cath_id="1.10.490.10.3.1.1.2.54">                        
+			<level_name level_id="1" depth="1">Mainly Alpha</level_name>                        
+			<level_name level_id="1.10" depth="2">Orthogonal Bundle</level_name>                        
+			<level_name level_id="1.10.490" depth="3">Globin-like</level_name>                        
+			<level_name level_id="1.10.490.10" depth="4">Globins</level_name>        
+		</level_names>
+		<segments seg_count="1">
+			<segment seg_num="1" pdb_start="1" pdb_stop="146" slength="146"/>        
+		</segments>
+		<domain_sequence_combs>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</domain_sequence_combs>
+		<domain_sequence_atom>VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH</domain_sequence_atom>
+		<pdb_entry pdb_code="3hhb" release_status="PDB_RELEASE_STATUS_ACTIVE" superseded_by="" insert_timestamp="1141561843" resolution="1.74" resolve_method="RESOLVE_METHOD_X_RAY">Oxygen Transport</pdb_entry>
+	</domain>
+</document>

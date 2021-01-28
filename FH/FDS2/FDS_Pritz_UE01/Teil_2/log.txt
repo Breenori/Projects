@@ -1,0 +1,7 @@
+Log of previous game: 
+WARNING: Data out of bounds: 0
+WARNING: Ambiguous data: %%
+WARNING: Data out of bounds: 2500303
+WARNING: Ambiguous data: x1200
+WARNING: Ambiguous data: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+WARNING: Data out of bounds: 5000
